@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 body{
     display: flex;
     justify-content: center;
@@ -7,11 +13,13 @@ body{
     flex-direction: column;
 }
 body{
-    background-color: white;
-    color: black;
+    background-image: url('/img/light.jpg');
+    background-size: cover;
+    color: rgb(255, 209, 209);
 }
 body.dark{
-    background-color: rgb(0, 0, 0);
+    background-image: url('/img/wpp.png');
+    background-size: cover;
     color: white;
 }
 img{
